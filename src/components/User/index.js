@@ -5,14 +5,15 @@ import './styles.css';
 
 const Avatar = props => {
 	return <img 
-					className='avatar'
-					src={props.url} 
-					alt={`${props.fname} 
-					${props.lname}`} />
+    className='avatar'
+    src={props.url} 
+    alt={`${props.fname} 
+    ${props.lname}`} />
 }
 
+
 const Fullname = props => {
-	return <div className='fullname'>{props.fname} {props.lname}</div>
+  return <div className='fullname'>{props.fname} {props.lname}</div>
 }
 
 const User = props => {
