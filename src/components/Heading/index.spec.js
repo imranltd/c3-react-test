@@ -1,12 +1,12 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { PearsonUsers } from "./PearsonUsers";
+import Heading from "./";
 
-describe("PearsonUsers", () => {
+describe("Heading", () => {
   let component;
 
   beforeEach(() => {
-    component = shallow(<PearsonUsers />);
+    component = shallow(<Heading>Pearson User Management</Heading>);
   });
 
   it("renders a h1", () => {
