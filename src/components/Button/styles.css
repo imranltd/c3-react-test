@@ -1,13 +1,13 @@
 .button-container{
-	text-align: left;
+  text-align: left;
 }
 .button-delete {
-	border: 0 none;
-	color: #007FA3;
-	font-size: 14px;
-	
+  border: 0 none;
+  color: #007FA3;
+  font-size: 14px;
+  
 }
 .button-delete:hover {
-	cursor: pointer;
-	color: blue;
+  cursor: pointer;
+  color: blue;
 }

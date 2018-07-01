@@ -4,7 +4,7 @@ import Button from '../Button'
 import './styles.css';
 
 const Avatar = props => {
-	return <img 
+  return <img 
     className='avatar'
     src={props.url} 
     alt={`${props.fname} 
